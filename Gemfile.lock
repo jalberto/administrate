@@ -210,7 +210,7 @@ GEM
       railties (>= 3.1)
     multi_json (1.11.2)
     multipart-post (2.0.0)
-    neat (1.7.2)
+    neat (1.7.4)
       bourbon (>= 4.0)
       sass (>= 3.3)
     nio4r (1.2.1)
