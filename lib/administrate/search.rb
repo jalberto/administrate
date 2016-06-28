@@ -22,7 +22,7 @@ module Administrate
 
     def query
       conditions = search_attributes.map do |attr|
-        "lower(#{quote_attr(attr)}) LIKE ?"
+        "lower(text(#{quote_attr(attr)})) LIKE ?"
       end
       conditions.join(" OR ")
     end
